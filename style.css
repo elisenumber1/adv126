@@ -1,0 +1,22 @@
+.heading{
+	box-shadow: 5px 5px 5px red;
+	padding: 15px;
+	font-size: 23px;
+	width:100%;
+	margin: 0px;
+	color: red;
+}
+
+#song_name{
+	padding: 5px;
+	font-size: 45px;
+	color: white;
+}
+
+canvas{
+	border:5px solid white;
+	border-radius:27px;
+	box-shadow: 5px 5px 5px yellow;
+	padding: 15px;
+	margin: 0px;
+}
