@@ -21,6 +21,21 @@ function preload(){
 
 function draw(){
 	image(video, 0, 0, 600, 500);
+	fill("#FF0000");
+	stroke("#FF0000");
+	if(scoreleftwrist>0.2);
+	circle(leftwristx, leftwristy, 20);
+	numberleftwristy=Number(leftwristy);
+	remove_decimal=floor(numberleftwristy);
+	volume=remove_decimal/500;
+	document.getElementById("volume").innerHTML="volume= "+volume;
+	song.setVolume(volume);
+}
+
+function play_music(){
+	song.play();
+	song.setVolume(1);
+	song.rate(1);
 }
 
 function modelloaded(){
